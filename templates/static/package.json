@@ -1,0 +1,22 @@
+{
+  "name": "static",
+  "version": "1.0.0",
+  "description": "Package for fantasy facts",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Zmalski/fantasyfacts.git"
+  },
+  "author": "Zachary Maludzinski",
+  "license": "GPL-2.0",
+  "bugs": {
+    "url": "https://github.com/Zmalski/fantasyfacts/issues"
+  },
+  "homepage": "https://github.com/Zmalski/fantasyfacts#readme",
+  "dependencies": {
+    "tailwindcss": "^2.2.19"
+  }
+}
