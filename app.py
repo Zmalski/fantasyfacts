@@ -1,12 +1,14 @@
-from flask import Flask, render_template
+from flask import Flask, jsonify
+from flask_cors import CORS
 
 app = Flask(__name__)
 
+CORS(app, resources={r'/*': {'origins': '*'}})
 
 @app.route("/")
-@app.route("/index")
+@app.route("/api/ping", methods = ['GET', 'POST'])
 def index():
-	return render_template("index.html")
+	return jsonify("PONG")
 
 
 if __name__ == '__main__':
